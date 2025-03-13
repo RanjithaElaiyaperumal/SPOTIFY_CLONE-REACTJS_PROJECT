@@ -3,7 +3,7 @@ import { albumsData, songsData } from '../assets/assets';
 import AlbumItem from './AlbumItem';
 import { PlayerContext } from '../context/PlayerContext';
 import { FaSearch } from 'react-icons/fa'; // Import search icon
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar.jsx"
 
 const DisplayHome = () => {
   const [search, setSearch] = useState(''); // State for search input
